@@ -1,0 +1,38 @@
+bodyP{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    background-color: cadetblue;
+    height: 50px;
+    
+}
+li{
+    list-style: none;
+    display: inline;
+}
+a{
+    text-decoration: none;
+    font-size:large;
+    padding: 10px;
+    float: right;
+    color: white;
+}
+#logo{
+    float: left;
+    font-size: 30px;
+    color: rgb(80, 255, 118);
+}
+.section1{
+    background-color: tomato;
+    height: 500px;
+    width: 300px;
+    float: left;
+}
+.section2{
+    background-color: yellowgreen;
+    height: 250px;
+    width: 300px;
+    float: right;
+}
+

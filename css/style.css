@@ -1,58 +1,44 @@
-*{
-    margin: 0px;
+* {
     padding: 0px;
-    box-sizing: border-box;
+    margin: 0px;
+    box-sizing: border-box; }
+  .one-header{
+      height: 50px;
+      width: 100%;
+      background-color: royalblue;
 
-}
-li{
-    
-    list-style: none;
-    
-}
-a{
-    
-    text-decoration: none;
-    color:  white;
-
-}
-nav{
-    background:linear-gradient(90deg, #48c6ef 0%,#6f86d6 100% );
-    padding: 10px;
-    
-    
-}
-p{
-    margin-top: 50px;
-    margin-left: 10px;
-}
-img{
-    border: 10px solid sienna;
-    margin-top: 10px;
-    margin-left: 10px;
-
-}
- .putter{
-     height: 50px;
-     width: 100%;
-     background-color: red;
-      
-     
+  }  
+  .tow-header{
+      height: 70px;
+      background:red;
+  }
+ .side-barOne{
+     height: 100vh;
+     background: yellow;
+     width: 25%;
+     float: left;
  }
- strong{
-     color: springgreen;
-     margin-left: 50%;
+ .side-barTow {
+     float: left;
+     height: 100vh;
+     background: tomato;
+     width: 50%;
  }
+ .side-barThere {
+  background: hotpink;
+  height: 100vh;
+     width: 25%;
+     float: left;
+}
+.last{
+   height: 80px;
+   width: 100%;
+   background-color: black;
+   display: flow-root; 
+}
 
-.putter2{
-    margin-left: 50%;
-}
-form{
-    border:2px solid red;
-    padding: 10px;
-    background-color: royalblue;
-    
-}
-form:hover{
-    background:linear-gradient(90deg, #ee0979 0%,#ff6a00 100% );
-}
+
+
+  
+
  

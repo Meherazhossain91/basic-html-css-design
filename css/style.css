@@ -1,26 +1,18 @@
- table,th,td{
-     border: 1px solid white;
-     background-color: tomato;
-     border: 1px solid black;
+label{
+    color: red;
+}
+button{
+    width: 100px;
+    color:black ;
+    height: 50px;
+    background-color:pink;
+    font-size: 30px;
+    font-weight: bold;
+    transition: width 2s;
+}
+button:hover{
+    width: 220px;
+    background-color: royalblue;
+    border: 2px solid red;
 
-      
- }
- th{
-     color: white;
-     background-color: black;
- }
- .center {
-    margin: auto;
-    width: 50%;
-    border: 3px solid green;
-    padding: 10px;
-  } 
-  .div{
-background-color: blue;
- 
-
-  }
-      
-      
-  
-
+}

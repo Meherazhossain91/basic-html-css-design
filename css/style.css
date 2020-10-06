@@ -1,18 +1,39 @@
-label{
-    color: red;
-}
-button{
-    width: 100px;
-    color:black ;
-    height: 50px;
-    background-color:pink;
-    font-size: 30px;
-    font-weight: bold;
-    transition: width 2s;
-}
-button:hover{
-    width: 220px;
-    background-color: royalblue;
-    border: 2px solid red;
 
+#calc-contain{
+ 
+    width: 500px;
+    border: 2px solid blue;
+    border-radius: 12px;
+    margin: 0px auto;
+    padding: 20px 20px 80px 20px;
+    margin-top: 40px;
+    background: rgb(180, 139, 24);
+  }
+ 
+  input[type=button] {
+    background: pink;
+    width: 20%;
+    font-size: 20px;
+    font-weight: 1000px;
+    border-radius: 5px;
+    margin-left: 13px;
+    margin-top: 10px;
 }
+input[type=button]:active {
+  background-color: green;
+ 
+}
+input[type=button]:hover {
+  background-color: gray;
+  color:red;
+}
+  
+input[type = text] {
+    position: relative;
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow: 4px 0px 12px green inset;
+  }

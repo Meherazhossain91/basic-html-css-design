@@ -1,39 +1,57 @@
+  h1{
+      color: rgb(rgb(102, 21, 21), rgb(23, 240, 23), rgb(58, 58, 85));
+      font-size: 14px;
+      margin-top: 20px;
+      margin-left: 30px; 
+      margin-right: 20px;
+  }
+  p{
+      color: white 
+      
+      
+      
+     }
+  body{
+      background-color:coral;
+      font-family:  Verdana ;
+       font-weight: normal;
+       line-height: 1.6em;
+       text-align: center;
+       color: blanchedalmond;
 
-#calc-contain{
- 
+  }
+  /*================
+  about css
+  ==================*/
+.a{
+    background-color:gray;
+    height: 100%;
     width: 500px;
-    border: 2px solid blue;
-    border-radius: 12px;
-    margin: 0px auto;
-    padding: 20px 20px 80px 20px;
-    margin-top: 40px;
-    background: rgb(180, 139, 24);
-  }
- 
-  input[type=button] {
-    background: pink;
-    width: 20%;
-    font-size: 20px;
-    font-weight: 1000px;
-    border-radius: 5px;
-    margin-left: 13px;
-    margin-top: 10px;
-}
-input[type=button]:active {
-  background-color: green;
- 
-}
-input[type=button]:hover {
-  background-color: gray;
-  color:red;
-}
-  
-input[type = text] {
-    position: relative;
-    display: block;
-    width: 90%;
-    margin: 5px auto;
-    font-size: 20px;
+    color:black;
+    float: left;
+    margin: 10px;
     padding: 10px;
-    box-shadow: 4px 0px 12px green inset;
+    border-radius: 10px 0px;
+    
+
   }
+.a h1{
+    text-align: center;
+  }
+  !--
+  .a.c h1{
+    text-align: right;
+   
+
+  }
+  -->
+  img{
+    width: 1000px;
+    height: 300px;
+    
+    
+  }
+  .der{
+    text-align: left;
+  }
+       

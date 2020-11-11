@@ -1,57 +1,21 @@
-  h1{
-      color: rgb(rgb(102, 21, 21), rgb(23, 240, 23), rgb(58, 58, 85));
-      font-size: 14px;
-      margin-top: 20px;
-      margin-left: 30px; 
-      margin-right: 20px;
-  }
-  p{
-      color: white 
-      
-      
-      
-     }
-  body{
-      background-color:coral;
-      font-family:  Verdana ;
-       font-weight: normal;
-       line-height: 1.6em;
-       text-align: center;
-       color: blanchedalmond;
-
-  }
-  /*================
-  about css
-  ==================*/
-.a{
-    background-color:gray;
-    height: 100%;
-    width: 500px;
-    color:black;
-    float: left;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10px 0px;
-    
-
-  }
-.a h1{
-    text-align: center;
-  }
-  !--
-  .a.c h1{
-    text-align: right;
+ * {
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+ }
+ .a{
+   display: grid;
+   place-items: center;
+   height: 100vh;
+   background-color: rgba(81, 207, 129, 0.74);
    
-
+ }
+ input{
+   height: 40px;
+   weight: 250px;
+ }
+  button{
+    height: 50px;
+    width: 320px;
+    border: 0px;
   }
-  -->
-  img{
-    width: 1000px;
-    height: 300px;
-    
-    
-  }
-  .der{
-    text-align: left;
-  }
-       

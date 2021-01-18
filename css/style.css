@@ -1,21 +1,2 @@
- * {
-   padding: 0px;
-   margin: 0px;
-   box-sizing: border-box;
- }
- .a{
-   display: grid;
-   place-items: center;
-   height: 100vh;
-   background-color: rgba(81, 207, 129, 0.74);
-   
- }
- input{
-   height: 40px;
-   weight: 250px;
- }
-  button{
-    height: 50px;
-    width: 320px;
-    border: 0px;
-  }
+ 
+
